@@ -57,7 +57,7 @@ some trickier function exercises before moving on.
     result = the_start + _1 + _2 + _3;
     return result;
   }
-  const return_val = turtle(/* write some arguments */);
+  const return_val = turtle("t", "l", "e");
   console.assert(return_val === 'turtle', "1: return_val === " + return_val);
 };
 ```
