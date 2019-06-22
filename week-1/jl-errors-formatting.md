@@ -18,7 +18,7 @@ let a = 1:
 ```
 error message:
 ```
-Uncaught SyntaxError: Unexpected token :
+Error: Parde error-Semi-colon expected!
 ```
 classification:
 * creation phase 
