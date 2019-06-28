@@ -93,6 +93,14 @@ We use the “modulo” operator % to get the remainder and check for the evenne
 
 >5
 
+Rewrite the code changing the for loop to while without altering its behavior (the output should stay same).
+
+ for (let i = 0; i < 3; i++) {
+  alert( `number ${i}!` );
+}
+
+SOLUTION:
+
 let i = 0;
 while (i < 3) {
   alert( `number ${i}!` );
