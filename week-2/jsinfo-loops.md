@@ -64,7 +64,7 @@ The prefix form:
 
 for (let i = 0; i < 5; ++i) alert( i );
 
-The answer: from 0 to 4 in both cases.
+SOLUTION: from 0 to 4 in both cases.
 
  for (let i = 0; i < 5; ++i) alert( i );
 
@@ -77,3 +77,8 @@ If true – execute the loop body alert(i), and then i++
 The increment i++ is separated from the condition check (2). That’s just another statement.
 
 The value returned by the increment is not used here, so there’s no difference between i++ and ++i.
+
+>4
+Use the for loop to output even numbers from 2 to 10.
+
+SOLUTION:
