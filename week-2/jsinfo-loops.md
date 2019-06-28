@@ -127,3 +127,19 @@ The loop do..while repeats while both checks are truthy:
 The check for num <= 100 – that is, the entered value is still not greater than 100.
 The check && num is false when num is null or a empty string. Then the while loop stops too.
 P.S. If num is null then num <= 100 is true, so without the 2nd check the loop wouldn’t stop if the user clicks CANCEL. Both checks are required.
+
+>7
+
+An integer number greater than 1 is called a prime if it cannot be divided without a remainder by anything except 1 and itself.
+
+In other words, n > 1 is a prime if it can’t be evenly divided by anything except 1 and n.
+
+For example, 5 is a prime, because it cannot be divided without a remainder by 2, 3 and 4.
+
+Write the code which outputs prime numbers in the interval from 2 to n.
+
+For n = 10 the result will be 2,3,5,7.
+
+P.S. The code should work for any n, not be hard-tuned for any fixed value.
+
+SOLUTION: 
