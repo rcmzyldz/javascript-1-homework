@@ -90,3 +90,11 @@ for (let i = 2; i <= 10; i++) {
   }
 }
 We use the “modulo” operator % to get the remainder and check for the evenness here.
+
+>5
+
+let i = 0;
+while (i < 3) {
+  alert( `number ${i}!` );
+  i++;
+}
