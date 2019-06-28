@@ -24,3 +24,8 @@ alert(i--) // shows 1, decreases i to 0
 
 let i = 0;
 while (++i < 5) alert( i );
+
+>The postfix form i++
+
+let i = 0;
+while (i++ < 5) alert( i );
