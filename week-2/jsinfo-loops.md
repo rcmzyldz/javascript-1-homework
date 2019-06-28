@@ -64,7 +64,9 @@ The prefix form:
 
 for (let i = 0; i < 5; ++i) alert( i );
 
-SOLUTION: from 0 to 4 in both cases.
+SOLUTION:
+
+from 0 to 4 in both cases.
 
  for (let i = 0; i < 5; ++i) alert( i );
 
@@ -82,3 +84,9 @@ The value returned by the increment is not used here, so there’s no difference
 Use the for loop to output even numbers from 2 to 10.
 
 SOLUTION:
+for (let i = 2; i <= 10; i++) {
+  if (i % 2 == 0) {
+    alert( i );
+  }
+}
+We use the “modulo” operator % to get the remainder and check for the evenness here.
