@@ -122,7 +122,13 @@ Please note that multiplyNumeric does not need to return anything. It should mod
 P.S. Use typeof to check for a number here.
 
 SOLUTION:
-
+function multiplyNumeric(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] == 'number') {
+      obj[key] *= 2;
+    }
+  }
+}
 
 
 
