@@ -55,3 +55,12 @@ Then follow 2, 3, 4…
 Let’s stop on i = 4. The prefix form ++i would increment it and use 5 in the comparison. But here we have the postfix form i++. So it increments i to 5, but returns the old value. Hence the comparison is actually while(4 < 5) – true, and the control goes on to alert.
 
 The value i = 5 is the last one, because on the next step while(5 < 5) is false.
+
+>3
+The postfix form:
+
+for (let i = 0; i < 5; i++) alert( i );
+The prefix form:
+
+for (let i = 0; i < 5; ++i) alert( i );
+solution
