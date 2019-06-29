@@ -82,7 +82,7 @@ the fix:
 ```js
 const a = 0;
 ```
-your notes:
+your notes:An initializer for a constant is required. You must specify its value in the same statement in which it's declared (which makes sense, given that it can't be changed later).
 
 [TOP](#variable-errors)
 
