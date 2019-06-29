@@ -70,7 +70,8 @@ const a;
 a = 0;
 ```
 error message:
-```
+```js
+Uncaught SyntaxError: Missing initializer in const declaration
 ```
 classification:
 * creation phase or execution phase ?
