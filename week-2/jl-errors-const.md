@@ -80,6 +80,7 @@ classification:
 
 the fix:
 ```js
+const a = 0;
 ```
 your notes:
 
