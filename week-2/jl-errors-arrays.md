@@ -18,7 +18,8 @@ broken code:
 let myArray = [1, 2, 3;
 ```
 error message:
-```
+```js
+Uncaught SyntaxError: Unexpected token ;
 ```
 classification:
 * creation phase or execution phase ?
