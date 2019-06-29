@@ -45,17 +45,16 @@ a = 0;
 error message:
 ``js
 Uncaught SyntaxError: Identifier 'a' has already been declared
-TypeError: Assignment to constant variable.`
-
+TypeError: Assignment to constant variable.
 ```
 classification:
-
 * creation phase or execution phase ?
 * syntax or semanitc ?
 
 the fix:
 ```js
 const a = 9;
+
 ```
 your notes:The variable identifier cannot be reassigned.
 
