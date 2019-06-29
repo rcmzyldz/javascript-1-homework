@@ -25,6 +25,8 @@ classification:
 
 the fix:
 ```js
+let a = {b:3};
+let b = a.b
 ```
 your notes:
 
