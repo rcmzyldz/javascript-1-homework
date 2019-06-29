@@ -70,7 +70,9 @@ let myArray = [
               ];
 ```
 error message:
-```
+```js
+Uncaught TypeError: Cannot read property '9' of undefined
+    at <anonymous>:4:17
 ```
 classification:
 * creation phase or execution phase ?
@@ -78,6 +80,7 @@ classification:
 
 the fix:
 ```js
+
 ```
 your notes:
 
