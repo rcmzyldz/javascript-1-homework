@@ -18,6 +18,7 @@ const = 5;
 ```
 error message:
 ```js
+Uncaught SyntaxError: Unexpected token =
 ```
 classification:
 * creation phase or execution phase ?
@@ -25,6 +26,7 @@ classification:
 
 the fix:
 ```js
+var five = 5;
 ```
 your notes:
 
