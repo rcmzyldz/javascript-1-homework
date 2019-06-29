@@ -16,7 +16,8 @@ let a = {b:3};
 let b = a.b.3
 ```
 error message:
-```
+```js
+Uncaught SyntaxError: Unexpected number
 ```
 classification:
 * creation phase or execution phase ?
