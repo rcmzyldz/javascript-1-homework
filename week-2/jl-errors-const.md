@@ -43,9 +43,8 @@ const a = 9;
 a = 0;
 ```
 error message:
-``js
-Uncaught SyntaxError: Identifier 'a' has already been declared
-TypeError: Assignment to constant variable.
+```js
+Uncaught SyntaxError: Unexpected token =
 ```
 classification:
 * creation phase or execution phase ?
