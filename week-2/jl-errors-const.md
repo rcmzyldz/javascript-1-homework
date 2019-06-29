@@ -53,8 +53,9 @@ classification:
 
 the fix:
 ```js
+const a = 9;
 ```
-your notes:
+your notes:The variable identifier cannot be reassigned.
 
 [TOP](#variable-errors)
 
