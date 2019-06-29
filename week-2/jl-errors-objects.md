@@ -53,7 +53,7 @@ the fix:
 let x = {b:'e'};
 let y = x.b;
 ```
-your notes:
+your notes: There is a non-existent variable referenced somewhere. This variable needs to be declared, or make sure it is available in the current script or scope.
 
 [TOP](#object-errors)
 
