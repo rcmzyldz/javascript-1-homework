@@ -44,7 +44,8 @@ a = 0;
 ```
 error message:
 ```js
-Uncaught SyntaxError: Unexpected token =
+Uncaught SyntaxError: Identifier 'a' has already been declared
+TypeError: Assignment to constant variable.
 ```
 classification:
 * creation phase or execution phase ?
