@@ -42,7 +42,8 @@ broken code:
 let myArray = [1, 2 3];
 ```
 error message:
-```
+```js
+Uncaught SyntaxError: Unexpected number
 ```
 classification:
 * creation phase or execution phase ?
@@ -50,8 +51,9 @@ classification:
 
 the fix:
 ```js
+let myArray = [1, 2, 3];
 ```
-your notes:
+your notes:there should be comma between numbers.
 
 [TOP](#array-errors)
 
