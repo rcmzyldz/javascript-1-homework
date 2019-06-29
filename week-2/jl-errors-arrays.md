@@ -27,8 +27,9 @@ classification:
 
 the fix:
 ```js
+let myArray = [1, 2, 3];
 ```
-your notes:
+your notes:There should be closing array after 3.
 
 [TOP](#array-errors)
 
