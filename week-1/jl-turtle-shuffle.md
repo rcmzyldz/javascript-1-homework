@@ -88,7 +88,7 @@ some trickier function exercises before moving on.
     var result = "t" + _1 + "r" + _2;
     return result;
   }
-  const return_val = turtle();
+  const return_val = turtle("u", "tle");
   console.assert(return_val === 'turtle', "3: return_val === " + return_val);
 };
 ```
