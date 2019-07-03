@@ -119,22 +119,22 @@ console.assert(return_val_2 === 'turtle', "5: return_val_2 === " + return_val_2)
     var result = _1 + _2 + _3;
     return result;
   }
-  const return_val_1 = turtle(/* write some arguments */);
+  const return_val_1 = turtle("tu", "rt", "le");
   console.assert(return_val_1 === 'turtle', "5: return_val_1 === " + return_val_1);
 
-  const return_val_2 = turtle(/* write some arguments */);
+  const return_val_2 = turtle("tu", "rt", "le");
   console.assert(return_val_2 === 'turtle', "5: return_val_2 === " + return_val_2);
 
-  const return_val_3 = turtle(/* write some arguments */);
+  const return_val_3 = turtle("tu", "rt", "le");
   console.assert(return_val_3 === 'turtle', "5: return_val_3 === " + return_val_3);
 
-  const return_val_4 = turtle(/* write some arguments */);
+  const return_val_4 = turtle("tu", "rt", "le");
   console.assert(return_val_4 === 'turtle', "5: return_val_4 === " + return_val_4);
 
-  const return_val_5 = turtle(/* write some arguments */);
+  const return_val_5 = turtle("tu", "rt", "le");
   console.assert(return_val_5 === 'turtle', "5: return_val_5 === " + return_val_5);
 
-  const return_val_6 = turtle(/* write some arguments */);
+  const return_val_6 = turtle("tu", "rt", "le");
   console.assert(return_val_6 === 'turtle', "5: return_val_6 === " + return_val_6);
 };
 ```
