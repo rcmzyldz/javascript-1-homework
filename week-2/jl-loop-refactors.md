@@ -276,10 +276,11 @@ _original for loop_
 
 _refactor to while_
 ```js
-{
-  while () {
-
-  }
+{ let i = -3;
+while (i === 10 || i < 20) {
+  console.log(i);
+  i *= -1.5;
+}
 }
 ```
 
@@ -304,10 +305,13 @@ _original for loop_
 
 _refactor to while_
 ```js
-{
-  while () {
-
-  }
+{  let i = 0, j = 10;
+while ( i !== j ) {
+  console.log("i: ", i);
+  console.log("j: ", j);
+  console.log("i + j: ", i + j);
+  i++, j--;
+}
 }
 ```
 
@@ -336,10 +340,13 @@ _original for loop_
 
 _refactor to while_
 ```js
-{
-  while () {
-
-  }
+{  const mixitup = false;
+let val;
+let i = '';
+while ( !!i !== true ) {
+  val = !i || mixitup * i;
+  console.log(!!val);
+  i = +val;
 }
 ```
 
