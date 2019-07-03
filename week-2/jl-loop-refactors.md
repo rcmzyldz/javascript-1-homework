@@ -247,10 +247,13 @@ _original for loop_
 
 _refactor to while_
 ```js
-{
-  while () {
-
-  }
+{ let result = 0;
+let i = 1;
+while ( i < 10 ) {
+  result += i;
+  console.log(i);
+  i += result;
+}
 }
 ```
 
