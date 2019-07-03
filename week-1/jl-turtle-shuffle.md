@@ -98,15 +98,15 @@ some trickier function exercises before moving on.
 [on pytut](http://www.pythontutor.com/javascript.html#code=function%20turtle%28_1%2C%20_2%2C%20_3%29%20%7B%0A%20%20var%20result%20%3D%20%22t%22%20%2B%20_2%20%2B%20%22r%22%20%2B%20_1%20%2B%20_3%3B%0A%20%20return%20result%3B%0A%7D%0Aconst%20return_val_1%20%3D%20turtle%28%2F*%20write%20some%20arguments%20*%2F%29%3B%0Aconsole.assert%28return_val_1%20%3D%3D%3D%20\'turtle\'%2C%20%225%3A%20return_val_1%20%3D%3D%3D%20%22%20%2B%20return_val_1%29%3B%0A%0Aconst%20return_val_2%20%3D%20turtle%28%2F*%20write%20some%20arguments%20*%2F%29%3B%0Aconsole.assert%28return_val_2%20%3D%3D%3D%20\'turtle\'%2C%20%225%3A%20return_val_2%20%3D%3D%3D%20%22%20%2B%20return_val_2%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D)
 ```js
 {  // 4
-  function turtle(_1, _2, _3) {  
-    var result = "t" + _2 + "r" + _1 + _3;
-    return result;
-  }
-  const return_val_1 = turtle(/* write some arguments */);
-  console.assert(return_val_1 === 'turtle', "5: return_val_1 === " + return_val_1);
+  function turtle(_1, _2, _3) {
+  var result = "t" + _2 + "r" + _1 + _3;
+  return result;
+}
+const return_val_1 = turtle("tl", "u", "e");
+console.assert(return_val_1 === 'turtle', "5: return_val_1 === " + return_val_1);
 
-  const return_val_2 = turtle(/* write some arguments */);
-  console.assert(return_val_2 === 'turtle', "4: return_val_2 === " + return_val_2);
+const return_val_2 = turtle("tl", "u", "e");
+console.assert(return_val_2 === 'turtle', "5: return_val_2 === " + return_val_2);
 };
 ```
 
