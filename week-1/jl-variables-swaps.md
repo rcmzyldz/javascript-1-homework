@@ -30,7 +30,12 @@ c = _;
 ```
 1. [the third](https://goo.gl/WXXtV7)
 ```js
-// your solution here
+_ = a;
+a = b;
+b = c;
+c = d;
+d = _;
+
 ```
 1. [the fourth](https://goo.gl/nTA1DG)
 ```js
