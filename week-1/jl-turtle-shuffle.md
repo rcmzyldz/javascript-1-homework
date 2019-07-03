@@ -163,7 +163,7 @@ console.assert(return_val_2 === 'turtle', "5: return_val_2 === " + return_val_2)
     var result = _2 + _1 + _4 + _2 + "l" + _3;
     return result;
   }
-  const return_val = turtle(/* write some arguments */);
+  const return_val = turtle("u", "t", "e", "r", "l");
   console.assert(return_val === 'turtle', "7: return_val === " + return_val);
 };
 ```
