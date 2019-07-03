@@ -197,7 +197,7 @@ console.assert(return_val === 'turtle', "9: return_val === " + return_val);
     var result = _4 + "u" + _1 + _4 + _3 + "e";
     return result;
   }
-  const return_val = turtle(/* write some arguments */);
+  const return_val = turtle("", "t", "r", "l", "", "");
   console.assert(return_val === 'turtle', "9: return_val === " + return_val);
 };
 ```
