@@ -55,7 +55,7 @@ b = c, c = _;
 ```
 * [double swap - one line](http://www.pythontutor.com/live.html#code=var%20a%20%3D%20'b',%20b%20%3D%20'c',%20c%20%3D%20'a'%3B%0Avar%20_%20%3D%20''%3B%0A%0A_%20%3D%20a,%20a%20%3D%20c,%20c%20%3D%20b,%20b%20%3D%20_%3B&cumulative=false&curInstr=3&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
 ```js
-// your solution here
+_ = a, a = c, c = b, b = _;
 ```
 
 [TOP](#multiple-assignments)
