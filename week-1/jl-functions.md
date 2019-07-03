@@ -151,7 +151,7 @@ some exercises to help you understand functions:
    };
 
    let x = "x", y = "y", z = "z";
-   let return_val = f(/* pass x, y & z in the right order */);
+   let return_val = f(y,z,x);
 
    console.assert(return_val === "xyz", "5: return_val === " + return_val);
 }
