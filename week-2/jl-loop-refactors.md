@@ -463,8 +463,8 @@ _original while loop_
 _refactor to for_
 ```js
 {
-  for ( ;  ;  ) {
-
+  for (let x = 9; ++x < 20; ) {
+console.log(x);
   }
 }
 ```
