@@ -31,6 +31,8 @@ _1="m", _3=" ", _4=" ", _5=" ";
 ```  
 1. [eating meat every meal](https://goo.gl/cwZijk)
 ```js
+let _1 = ' ', _2 = ' ', _3 = ' ', _4 = ' ', _5 = ' ', _6= ' ';
+
 // eating
 _1="e", _2="a", _3="t", _4="i", _5="n", _6="g";
 // meat
@@ -42,7 +44,20 @@ _1="m", _2="e", _3="a", _4="l", _5=" ";
 ```  
 1. [many men may melt my mind](https://goo.gl/16C62t)
 ```js
+let _1 = ' ', _2 = ' ', _3 = ' ', _4 = ' ';
 
+// many
+_1="m", _2="a", _3="n", _4="y";
+// men
+_2="e", _4=" ";
+// may
+_2="a", _3="y";
+// melt
+_2="e", _3="l", _4="t";
+// my
+_2="y", _3=" ", _4=" ";
+// mind
+_2="i", _3="n", _4="d";
 ```  
 1. [if fir trees ever fall](https://goo.gl/8y5Lh2)
 ```js
