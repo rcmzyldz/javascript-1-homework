@@ -18,10 +18,27 @@ You'll have to practice looking ahead of and behind the line you are writing to 
 1. [the toad reads me](https://goo.gl/imKwgj)  
 ```js
 
+let _1 = " ", _2 = " ", _3 = " ", _4 = " ", _5 = " ";
+
+// the
+_1 ="t", _2 ="h", _3 ="e";
+// toad
+_2 ="o", _3="a", _4="d"; 
+// reads
+_1="r", _2="e", _5="s";
+// me
+_1="m", _3=" ", _4=" ", _5=" ";
 ```  
 1. [eating meat every meal](https://goo.gl/cwZijk)
 ```js
-
+// eating
+_1="e", _2="a", _3="t", _4="i", _5="n", _6="g";
+// meat
+_4 = _3, _3 = _2, _2 = _1, _1 = "m", _5 = " ", _6 = " ";
+// every
+_1 =_3 ="e", _2="v", _4="r", _5="y";
+// meal
+_1="m", _2="e", _3="a", _4="l", _5=" ";
 ```  
 1. [many men may melt my mind](https://goo.gl/16C62t)
 ```js
